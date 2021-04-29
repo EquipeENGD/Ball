@@ -55,5 +55,5 @@ __meta__ = {
 }
 
 [node name="Player" parent="." instance=ExtResource( 3 )]
-position = Vector2( 448, 324 )
+position = Vector2( 65, 64 )
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

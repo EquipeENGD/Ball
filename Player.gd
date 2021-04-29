@@ -1,7 +1,7 @@
 extends Area2D
 
 export(int) var SPEED = 170
-export(int) var ROTSPEED = 0.5
+export(int) var ROTSPEED = 1
 var velocity = Vector2(0,0)
 onready var ballSprite = $BallSprite
 
